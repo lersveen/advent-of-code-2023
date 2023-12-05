@@ -34,11 +34,9 @@ def replace_outer_numwords(string):
 
     if first_word:
         string = insert_substring(string, first_start, numwords[first_word])
-        # string = str.replace(string, first_word, numwords[first_word])
 
     if last_word:
         string = insert_substring(string, last_end, numwords[last_word])
-        # string = str.replace(string, last_word, numwords[last_word])
 
     return string
 
