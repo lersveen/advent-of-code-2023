@@ -56,5 +56,3 @@ with open("day2/input.txt") as f:
 
 print(total_power)
 print(total)
-print(possible_games)
-            
